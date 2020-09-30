@@ -1,0 +1,60 @@
+body {
+    margin: 0
+}
+
+#bg {
+    width: 2000px; /* alternative: 100% */
+    background-color: #ccc;
+    height: 1500px;
+    padding-top: 60px
+}
+
+#main {
+    width: 960px;
+    background-color: #aaa;
+    margin: 0 auto /* top et bottom à 0, marges automatiques pour left et right */
+}
+
+#main header {
+    height: 120px;
+    padding-bottom: 10px
+}
+
+#header_top, #header_bottom {
+    height: 25%;
+    background-color: #dfdfdf;
+}
+#header_centre {
+    height: 50%;
+    background-color: #dfdfdf;
+    margin: 5px 0
+}
+
+#left {
+    width: 66.66%;
+    background-color: #bbb;
+    float:left;
+    height: 1000px
+}
+
+#right {
+    width: 33.33%;
+    background-color: #555;
+    float:left;
+    height: 200px
+}
+
+#main footer {
+    width: 100%;
+    background-color: #666;
+    height: 80px
+}
+
+.clearfix {
+    clear: both
+}
+
+.news-section {
+    height: 500px;
+    background-color: indigo;
+}

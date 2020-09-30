@@ -1,0 +1,20 @@
+/* Feuille de styles de globale */
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: #ccc; 
+}
+
+li {
+    color: red
+}
+
+div.imgA img {
+    border: 2px red solid
+}
+
+div.imgB img {
+    display: block;
+    margin-bottom: 4px
+}
+
+

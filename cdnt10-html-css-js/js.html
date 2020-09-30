@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <title>JS</title>
+    <style>
+        article { width:50%; display: none; }
+        h2 { cursor: pointer; width: 150px;}
+    </style>
+</head>
+<body>
+    <h1>Vanilla JS</h1>
+    <h2>JS</h2>
+    <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam cupiditate perspiciatis, suscipit debitis recusandae harum ad ratione asperiores sint voluptatibus esse ipsum aut. Nulla soluta debitis illum alias, quas quod?</article>
+    
+    <h2>JQuery</h2>
+    <article>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe similique dolorem accusamus doloribus, numquam incidunt temporibus ullam libero expedita alias maxime debitis unde enim soluta veritatis harum sequi assumenda laudantium?</article>
+
+    <input type="text" id="txtUsername" placeholder="username">
+    <button id="btnTest">Test</button>
+
+    <script>
+        let h2              = document.getElementsByTagName('h2');
+        let txtUsername     = document.querySelector('#txtUsername');
+        let btnTest         = document.querySelector('#btnTest');
+        
+        h2[1] = 'JQ';
+
+        btnTest.disabled = true;
+        txtUsername.addEventListener('keyup', () => {
+            if (txtUsername.value.length < 3) {
+                btnTest.disabled = true;
+            } else {
+                btnTest.disabled = false;
+            }
+        });
+
+        for (let i = 0; i < h2.length; i++) {
+            h2[i].addEventListener('click', (e) => { 
+                let display = e.target.nextElementSibling.style.display;
+                if (!display || display === 'none') {
+                    e.target.nextElementSibling.style.display = 'block';
+                } else {
+                    e.target.nextElementSibling.style.display = 'none';
+                };
+            });
+        }
+    </script>
+</body>
+</html>

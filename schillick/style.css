@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: darkslategrey;
+}
+.container {
+    height: 1000px;
+    width: 900px;
+    background-color: rgb(51, 248, 143);
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+section {
+    padding-top: 100px;
+}
+
+#left {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+}
+
+#center {
+    flex: 2;
+    height: 70%;
+    background-color: #f58f2d;
+    color: #fff;
+}
+
+#right {
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+}

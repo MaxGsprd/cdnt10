@@ -1,0 +1,12 @@
+*** TP 1 ***
+
+1/ En vous basant sur le fichier cdnt10-homapage.png, compléter le fichier template/index.html en y ajoutant le code HTML/CSS modélisant une news
+
+2/ Créer un template HTML/CSS schillick-info.html reproduisant la mise en page du fichier schillick-info.pdf.
+Le texte pourra être remplacé par du lorem ipsum
+Les images pourront être remplacées par des requêtes vers un générateur d'images (exemple: https://picsum.photos/)
+En plus de la mise en page, essayer de reproduire au mieux:
+- couleurs de fond
+- différence entre les taille de police
+- italique/gras/centrage
+- ombres portées

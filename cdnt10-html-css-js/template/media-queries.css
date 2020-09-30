@@ -1,0 +1,32 @@
+
+/* s'applique tant que la largeur est inférieure ou égale à 500px */
+@media screen and (max-width: 500px) {
+    #bg {
+        background-color: orange;
+        padding-top: 0;
+        width: 100%
+    }
+
+    #left {
+        width: 100%;
+        height: 500px
+    }
+
+    #right {
+        width: 100%;
+        height: 500px
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #bg {
+        display: block
+    }
+}
+
+/* s'applique à partir de 1000px de large */
+/* @media screen and (min-width: 1000px) {
+    #bg {
+        display: none
+    }
+} */
