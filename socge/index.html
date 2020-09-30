@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tp socge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="switch-btn.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/600c573850.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>TP Société Générale</h1>
+    <div class="container">
+        <h2 id="section-title">Connexion - Espace client</h2>
+        <section id="auth-client">
+            <input type="text" id="inputClientNum" placeholder="Saissisez votre code client" maxlength="8">
+            <span id="deleteBtn"><i class="fas fa-times"></i></span>
+            <div id="rememberMe">
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <span>Se souvenir de moi</span>
+                <span id="popUp-info-btn"><i class="fas fa-info-circle"></i></span>
+            </div>
+            <button id="validate">Valider</button>
+        </section>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
